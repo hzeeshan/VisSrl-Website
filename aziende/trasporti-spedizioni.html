@@ -134,11 +134,173 @@ element.style {
     <!-- Start Header Section -->
     <script>
       $(function() {
-        $("#nav-bar").load("../includes/navbar.html");
+       
         $("#footer").load("../includes/footer.html");
       });
     </script>
-    <div id="nav-bar"></div>
+    <header>
+      <!-- header-area start -->
+      <div id="sticker" class="header-area">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 col-sm-12">
+              <!-- Navigation -->
+              <nav class="navbar navbar-default">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                  <button
+                    type="button"
+                    class="navbar-toggle collapsed"
+                    data-toggle="collapse"
+                    data-target=".bs-example-navbar-collapse-1"
+                    aria-expanded="false"
+                  >
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>
+                  <!-- Brand -->
+                  <a
+                    class="navbar-brand page-scroll sticky-logo"
+                    href="index.html"
+                  >
+                    <img src="../img/logo_vis_57x57.png" />
+                    <!--
+                      <img src="../img/VisValoreInnovazioneServizi.png" />
+                      <h1><span>my</span>Logo</h1>
+                    -->
+
+                    <!-- Uncomment below if you prefer to use an image logo -->
+                  </a>
+                </div>
+                <!--
+                  Collect the nav links, forms, and other content for toggling
+                -->
+                <div
+                  class="collapse navbar-collapse main-menu bs-example-navbar-collapse-1"
+                  id="navbar-example"
+                >
+                  <ul class="nav navbar-nav navbar-right">
+                    <li><a class="page-scroll" href="index.html">Home</a></li>
+                    <li>
+                      <a class="page-scroll" href="chi-siamo.html">Chi Siamo</a>
+                    </li>
+                    <li class="dropdown">
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown"
+                        >Servizi <span class="caret"></span
+                      ></a>
+                      <ul class="dropdown-menu" role="menu">
+                        <li>
+                          <a
+                            href="../aziende/localizzatore-satellitare-small.html"
+                            >SMALL</a
+                          >
+                        </li>
+                        <li>
+                          <a
+                            href="../aziende/localizzatore-satellitare-medium.html"
+                            >MEDIUM</a
+                          >
+                        </li>
+                        <li>
+                          <a
+                            href="../aziende/localizzatore-satellitare-large.html"
+                            >LARGE</a
+                          >
+                        </li>
+                        <li>
+                          <a href="../aziende/servizi-offerta-condizioni.html"
+                            >Confronto Profili</a
+                          >
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="dropdown active">
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown"
+                        >Settori <span class="caret"></span
+                      ></a>
+                      <ul class="dropdown-menu" role="menu">
+                        <li>
+                          <a href="../aziende/trasporti-spedizioni.html"
+                            >Trasporti e Spedizioni</a
+                          >
+                        </li>
+                        <li>
+                          <a href="../aziende/manutenzione-assistenza.html"
+                            >Manutenzione e Assistenza</a
+                          >
+                        </li>
+                        <li>
+                          <a href="../aziende/mezzi-soccorso.html"
+                            >Mezzi di Soccorso</a
+                          >
+                        </li>
+                        <li>
+                          <a href="../aziende/noleggio-veicoli.html"
+                            >Noleggio Veicoli</a
+                          >
+                        </li>
+                        <li>
+                          <a href="../aziende/raccolta-rifiuti-spurgo.html"
+                            >Raccolta Rifiuti e Spurgo</a
+                          >
+                        </li>
+                        <li>
+                          <a href="../aziende/servizi-stagionali.html"
+                            >Servizi Stagionali</a
+                          >
+                        </li>
+                        <li>
+                          <a href="./aziende/movimento-terra.html"
+                            >Movimento Terra</a
+                          >
+                        </li>
+                        <li>
+                          <a href="../aziende/vigilanza.html">Vigilanza</a>
+                        </li>
+                        <li>
+                          <a href="../aziende/venditori-rete-commerciale.html"
+                            >Venditori e Rete Commerciale</a
+                          >
+                        </li>
+                      </ul>
+                    </li>
+                    <li>
+                      <a
+                        class="page-scroll"
+                        href="accessori-localizzatore-satellitare.html"
+                        >Accessori</a
+                      >
+                    </li>
+
+                    <li>
+                      <a class="page-scroll" href="progetti-speciali.html"
+                        >Progetti speciali</a
+                      >
+                    </li>
+                    <li>
+                      <a class="page-scroll" href="contatti.html">Contatti</a>
+                    </li>
+                    <li class="dropdown">
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown"
+                        >IT <span class="caret"> </span>
+                      </a>
+                      <ul class="dropdown-menu" role="menu">
+                        <li><a href="#">EN</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+                <!-- navbar-collapse -->
+              </nav>
+              <!-- END: Navigation -->
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- header-area end -->
+    </header>
     <!-- header end -->
 
     <div id="about-vflotte-small" class="about-area area-padding">
@@ -212,7 +374,7 @@ element.style {
       <div class="FUNZIONALITÀ-COSTI-ACQUISTA-tab-border">
         <ul class="nav nav-pills nav-stacked col-md-2 wow fadeInUp">
           <li class="active"><a href="#tab_a" data-toggle="pill">FUNZIONALITÀ</a></li>
-          <li><a href="#tab_b" data-toggle="pill">COSTI</a></li>
+          
           <li><a href="#tab_c" data-toggle="pill">ACCESSORI</a></li>
           <li><a href="#tab_c" data-toggle="pill">SPECIALITÀ</a></li>
           <li><a href="#tab_e" data-toggle="pill">VANTAGGI</a></li>
@@ -385,95 +547,7 @@ element.style {
               </table>
             </div>
           </div>
-          <div class="tab-pane" id="tab_b">
-              
-            <div class="col-md-12 col-sm-12 col-xs-12" >
-              <h4>Offerta</h4>
-              <div class="table-responsive settoritable1">
-                <table class="table table-bordered detail2">
-                    
-                  <tr>
-                    <td class="costi-first-td">Abbonamento mensile</td>
-                    <td>a soli &euro; 20,90 + IVA al mese a veicolo (*)</td>
-                  </tr>
-                  <tr>
-                    <td class="costi-first-td">Vincolo conrattuale</td>
-                    <td>nessuno: &egrave; possibile recedere in qualunque momento</td>
-                  </tr>
-                  <tr>
-                    <td class="costi-first-td">Attivazione</td>
-                    <td>&euro; 30,00 a veicolo + IVA. GRATUITA per ordini ricevuti via Internet o Telefonicamente</td>
-                  </tr>
-                  <tr>
-                    <td class="costi-first-td">Localizzatore satellitare GPS/GSM</td>
-                    <td>in comodato compreso nell'abbonamento</td>
-                  </tr>
-                  <tr>
-                    <td class="costi-first-td">Accesso WEB</td>
-                    <td>illimitato</td>
-                  </tr>
-                  <tr>
-                    <td class="costi-first-td">SIM</td>
-                    <td>compresa nell'abbonamento</td>
-                  </tr>
-                  <tr>
-                    <td class="costi-first-td">Traffico dati SIM</td>
-                    <td>Copertura ITALIA: compresa nell'abbonamento <br>
-                      Copertura EUROPA: &euro; 1,00 + IVA al mese a veicolo<br>
-                      Copertura MONDO: &euro; 3,00 + IVA al mese a veicolo</td>
-                  </tr>
-                  <tr>
-                    <td class="costi-first-td">Assistenza telefonica</td>
-                    <td>compresa nell'abbonamento</td>
-                  </tr>
-                  <tr>
-                    <td class="costi-first-td">Installazione</td>
-                    <td>esclusa. L'installazione degli apparati &egrave; a carico del cliente e può essere facilmente eseguita da un qualsiasi elettrauto di fiducia</td>
-                  </tr>
-                
-                </table>
-              </div>
-              <br>
-              <p>(*) L'importo dipende da configurazione ed accessori richiesti al momento della sottoscrizione. </p>
-              <p>La sottoscrizione dell'abbonamento non prevede alcun vincolo temporale, il recesso dal contratto lo decidi tu!</p>
-              <br>
-              <h4>Prezzi per volumi e Sconti per contratti vincolati</h4>
-              <div class="table-responsive settoritable1">
-                <table class="table table-bordered detail2 text-center">
-                  <tr>
-                    <th rowspan="2"><img src="../img/vflotte.png" style="height:28px" class="img-responsive center-block"></th>
-                    <th colspan="4" id="right-border">Volumi</th>
-                    <th colspan="2">Vincoli</th>
-                  </tr>
-                  <tr>
-                    <td class="td-no-border">Da 1 a 9</td>
-                    <td class="td-no-border">Da 10 a 19</td>
-                    <td class="td-no-border">Da 20 a 49</td>
-                    <td class="td-no-border" id="right-border">Oltre 50</td>
-                    <td class="td-no-border">24 mesi</td>
-                    <td class="td-no-border">36 mesi</td>
-                  </tr>
-                  <tr>
-                    <td class="price1">Trasporti e spedizioni</td>
-                    <td>&euro; 20,90</td>
-                    <td>&euro; 20,00</td>
-                    <td>&euro; 19,10</td>
-                    <td id="right-border">&euro; 18,20</td>
-                    <td class="price">10%</td>
-                    <td class="price">20%</td>
-                  </tr>
-                </table>
-              </div>
-              <p>Per i Contratti Vincolati, in caso di recesso anticipato, saranno richieste, come penale, 6 mensilit&agrave; a licenza per il vincolato a 24 mesi, e 9 mensilit&agrave; a licenza per il vincolato a 36 mesi.</p>
-              <br>
-              <br>
-              <h4>Opzione ACQUISTO</h4>
-              <p>&Egrave; possibile acquistare Dispositivi ed Accessori. Contattaci per un Preventivo.</p>
-              <div class="center">
-                <a class="btn btn-primary" href="contatti.html">Per offerte personalizzate contattaci »</a>
-              </div>
-            </div>
-          </div>
+          
           <div class="tab-pane" id="tab_c">
             <div class="col-md-12 col-sm-12 col-xs-12">
               <h4>Accessori e Moduli Opzionali</h4>

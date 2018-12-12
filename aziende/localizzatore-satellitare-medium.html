@@ -88,11 +88,173 @@
     <!-- Start Header Section -->
     <script>
       $(function() {
-        $("#nav-bar").load("../includes/navbar.html");
+        //$("#nav-bar").load("../includes/navbar.html");
         $("#footer").load("../includes/footer.html");
       });
     </script>
-    <div id="nav-bar"></div>
+    <header>
+      <!-- header-area start -->
+      <div id="sticker" class="header-area">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 col-sm-12">
+              <!-- Navigation -->
+              <nav class="navbar navbar-default">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                  <button
+                    type="button"
+                    class="navbar-toggle collapsed"
+                    data-toggle="collapse"
+                    data-target=".bs-example-navbar-collapse-1"
+                    aria-expanded="false"
+                  >
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>
+                  <!-- Brand -->
+                  <a
+                    class="navbar-brand page-scroll sticky-logo"
+                    href="index.html"
+                  >
+                    <img src="../img/logo_vis_57x57.png" />
+                    <!--
+                      <img src="../img/VisValoreInnovazioneServizi.png" />
+                      <h1><span>my</span>Logo</h1>
+                    -->
+
+                    <!-- Uncomment below if you prefer to use an image logo -->
+                  </a>
+                </div>
+                <!--
+                  Collect the nav links, forms, and other content for toggling
+                -->
+                <div
+                  class="collapse navbar-collapse main-menu bs-example-navbar-collapse-1"
+                  id="navbar-example"
+                >
+                  <ul class="nav navbar-nav navbar-right">
+                    <li><a class="page-scroll" href="index.html">Home</a></li>
+                    <li>
+                      <a class="page-scroll" href="chi-siamo.html">Chi Siamo</a>
+                    </li>
+                    <li class="dropdown active">
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown"
+                        >Servizi <span class="caret"></span
+                      ></a>
+                      <ul class="dropdown-menu" role="menu">
+                        <li>
+                          <a
+                            href="../aziende/localizzatore-satellitare-small.html"
+                            >SMALL</a
+                          >
+                        </li>
+                        <li>
+                          <a
+                            href="../aziende/localizzatore-satellitare-medium.html"
+                            >MEDIUM</a
+                          >
+                        </li>
+                        <li>
+                          <a
+                            href="../aziende/localizzatore-satellitare-large.html"
+                            >LARGE</a
+                          >
+                        </li>
+                        <li>
+                          <a href="../aziende/servizi-offerta-condizioni.html"
+                            >Confronto Profili</a
+                          >
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="dropdown">
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown"
+                        >Settori <span class="caret"></span
+                      ></a>
+                      <ul class="dropdown-menu" role="menu">
+                        <li>
+                          <a href="../aziende/trasporti-spedizioni.html"
+                            >Trasporti e Spedizioni</a
+                          >
+                        </li>
+                        <li>
+                          <a href="../aziende/manutenzione-assistenza.html"
+                            >Manutenzione e Assistenza</a
+                          >
+                        </li>
+                        <li>
+                          <a href="../aziende/mezzi-soccorso.html"
+                            >Mezzi di Soccorso</a
+                          >
+                        </li>
+                        <li>
+                          <a href="../aziende/noleggio-veicoli.html"
+                            >Noleggio Veicoli</a
+                          >
+                        </li>
+                        <li>
+                          <a href="../aziende/raccolta-rifiuti-spurgo.html"
+                            >Raccolta Rifiuti e Spurgo</a
+                          >
+                        </li>
+                        <li>
+                          <a href="../aziende/servizi-stagionali.html"
+                            >Servizi Stagionali</a
+                          >
+                        </li>
+                        <li>
+                          <a href="./aziende/movimento-terra.html"
+                            >Movimento Terra</a
+                          >
+                        </li>
+                        <li>
+                          <a href="../aziende/vigilanza.html">Vigilanza</a>
+                        </li>
+                        <li>
+                          <a href="../aziende/venditori-rete-commerciale.html"
+                            >Venditori e Rete Commerciale</a
+                          >
+                        </li>
+                      </ul>
+                    </li>
+                    <li>
+                      <a
+                        class="page-scroll"
+                        href="accessori-localizzatore-satellitare.html"
+                        >Accessori</a
+                      >
+                    </li>
+
+                    <li>
+                      <a class="page-scroll" href="progetti-speciali.html"
+                        >Progetti speciali</a
+                      >
+                    </li>
+                    <li>
+                      <a class="page-scroll" href="contatti.html">Contatti</a>
+                    </li>
+                    <li class="dropdown">
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown"
+                        >IT <span class="caret"> </span>
+                      </a>
+                      <ul class="dropdown-menu" role="menu">
+                        <li><a href="#">EN</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+                <!-- navbar-collapse -->
+              </nav>
+              <!-- END: Navigation -->
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- header-area end -->
+    </header>
     <!-- header end -->
 
     <div id="about-vflotte-small" class="about-area area-padding">
@@ -164,7 +326,7 @@
             <a href="#tab_a" data-toggle="pill">FUNZIONALITÀ</a>
           </li>
           <li><a href="#tab_b" data-toggle="pill">ACCESSORI</a></li>
-          <li><a href="#tab_c" data-toggle="pill">COSTI</a></li>
+
           <li><a href="#tab_e" data-toggle="pill">VANTAGGI</a></li>
           <li><a href="#tab_f" data-toggle="pill">PREVNTIVO/ORDINE</a></li>
         </ul>
@@ -238,29 +400,31 @@
                       Storico posizioni con evidenza dei km percorsi, soste e
                       velocit&agrave;. Tracciato su Mappa
                     </li>
+                    <li>Dettaglio viaggio con mappa percorso</li>
                     <li>
-                            Dettaglio viaggio con mappa percorso
+                      Rapporti stampabili on-line ed esportabili in PDF, XLS o
+                      CSV
                     </li>
-                    <li>Rapporti stampabili on-line ed esportabili in PDF, XLS o CSV</li>
+                    <li>Scambio messaggi (SMS) con gli autisti o tecnici</li>
                     <li>
-                            Scambio messaggi (SMS) con gli autisti o tecnici
-                    </li>
-                    <li>
-                            Avvisi automatici scadenze per Date o km impostati (bollo, assicurazione, tagliandi, gomme, ecc.)
+                      Avvisi automatici scadenze per Date o km impostati (bollo,
+                      assicurazione, tagliandi, gomme, ecc.)
                     </li>
                   </ul>
                   <br />
-                  
                 </div>
               </div>
-              <div class="col-md-7 col-sm-7 col-xs-12 pd0" >
-                    <div class="FUNZIONALITÀ">
-                      <ul>
-                        <li>Accessori: moduli e funzionalut&agrave; opzionali per soddisfare le esigenze della tua specifica attivit&agrave;</li>
-                        <li>Supporto e formazione agli utenti</li>
-                      </ul>
-                      <br>
-                      <a href="../docs/vFlotte-SMALL.pdf" target="_blank"
+              <div class="col-md-7 col-sm-7 col-xs-12 pd0">
+                <div class="FUNZIONALITÀ">
+                  <ul>
+                    <li>
+                      Accessori: moduli e funzionalut&agrave; opzionali per
+                      soddisfare le esigenze della tua specifica attivit&agrave;
+                    </li>
+                    <li>Supporto e formazione agli utenti</li>
+                  </ul>
+                  <br />
+                  <a href="../docs/vFlotte-SMALL.pdf" target="_blank"
                     ><img
                       src="../img/pdf-dl.png"
                       class="img-responsive doc-pdf-image text-center "
@@ -268,12 +432,18 @@
                       height="60"
                     /><span> Scarica la Presentazione </span></a
                   >
-                    </div>
-                  </div>
-                  <div class="col-md-5 col-sm-12 col-xs-12">
-                        <a href="../img/m-pc-posall.png" title="vFlotte MEDIUM - Tracciato Posizioni"><img  alt="vFlotte MEDIUM - Tracciato Posizioni" src="../img/m-pc-posall.png" class="img-responsive center-block images-tabs-second"/></a>
-                      </div>
-                   
+                </div>
+              </div>
+              <div class="col-md-5 col-sm-12 col-xs-12">
+                <a
+                  href="../img/m-pc-posall.png"
+                  title="vFlotte MEDIUM - Tracciato Posizioni"
+                  ><img
+                    alt="vFlotte MEDIUM - Tracciato Posizioni"
+                    src="../img/m-pc-posall.png"
+                    class="img-responsive center-block images-tabs-second"
+                /></a>
+              </div>
 
               <!-- <div class="clearfix visible-xs"></div> -->
             </div>
@@ -299,232 +469,86 @@
                 soccorso
               </p>
               <h4>Gestione Punti di Interesse</h4>
-          <p>Punti Di Interesse (PDI), gestione posizione di clienti, fornitori o località particolari. Riconioscimento sosta presso PDI e Ricerca su mappa dei veicoli pi&ugrave; vicini con indicazione di distanza e tempo di arrivo</p>
+              <p>
+                Punti Di Interesse (PDI), gestione posizione di clienti,
+                fornitori o località particolari. Riconioscimento sosta presso
+                PDI e Ricerca su mappa dei veicoli pi&ugrave; vicini con
+                indicazione di distanza e tempo di arrivo
+              </p>
 
-          <h4>Ricostruzione esatto percorso</h4>
-          <p>Configurazione speciale del Localizzatore GPS per il tracciamento di ogni svolta o cambio di direzione di almeno 40°</p>
-          <h4>Rapporto Mensile-Giornaliero</h4>
-          <p>Rapporto Mensile-Giornaliero dei km percorsi, tempi viaggio e sosta, velocità medie e massime</p> 
-          <h4>Controllo Temperature</h4>
-          <p>Monitoraggio Temperature di ambienti o celle refrigerate</p>
-          <h4>Controllo Carburante</h4>
-          <p>Monitoraggio del livello di carburante nel serbatoio: Riconoscimento di dove e quando è stato fatto rifornimento o sottratto carburante</p>
-          
-          <h4>Dati CAN Bus</h4>
-          <p>Interfaccia con il CAN BUS del veicolo per la lettura di km, velocit&agrave;, consumi, prestazioni motore ed altro</p>
-          <h4>Riconoscimento Autista</h4>
-          <p>Identificazione tramite chiavetta a codice del conducente, con possibilit&agrave; di blocco avviamento automatico se non autorizzato</p>
-          <h4>Navigatore GARMIN</h4>
-          <p>Invio indirizzi e missioni da Applicazione WEB direttamente al Navigatore di bordo, monitoraggio stato del viaggio, scambio messaggi con autista</p>
-          <h4>Avvisi Automatici</h4>
-          <p>Tempi di sosta eccessivi, movimento fuori orario lavorativo, superamento limiti di velocit&agrave;, vicinanza confini nazionali e altro...</p>
-          <h4>Ottimizzazione Giri e Appuntamenti</h4>
-          <p>Gestione della programmazione servizi con supporto cartografico. Ottimizzazione percorsi e monitoraggio svolgimento</p>
-          <h4>Attivit&agrave; mezzi pesanti</h4>
-          <p>Analisi attivit&agrave; dei mezzi, intervalli a quadro-on/quadro-off, e dei dati dell’autista, periodi di guida/pausa, periodo di guida giornaliero e bisettimanale. Cronotachigrafo virtuale</p>
-          <h4>Input Digitali</h4>
-          <p>Monitoraggio contatti, interruttori, spie, prese di forza, portelloni, ecc. Indicazione di dove e quando vengono attivati</p>
-          <h4>Filtro Privacy</h4>
-          <p>Filtro posizioni al di fuori dell'orario lavorativo. Riservatezza per aziende che hanno veicoli ad uso promiscuo</p>
+              <h4>Ricostruzione esatto percorso</h4>
+              <p>
+                Configurazione speciale del Localizzatore GPS per il
+                tracciamento di ogni svolta o cambio di direzione di almeno 40°
+              </p>
+              <h4>Rapporto Mensile-Giornaliero</h4>
+              <p>
+                Rapporto Mensile-Giornaliero dei km percorsi, tempi viaggio e
+                sosta, velocità medie e massime
+              </p>
+              <h4>Controllo Temperature</h4>
+              <p>Monitoraggio Temperature di ambienti o celle refrigerate</p>
+              <h4>Controllo Carburante</h4>
+              <p>
+                Monitoraggio del livello di carburante nel serbatoio:
+                Riconoscimento di dove e quando è stato fatto rifornimento o
+                sottratto carburante
+              </p>
 
+              <h4>Dati CAN Bus</h4>
+              <p>
+                Interfaccia con il CAN BUS del veicolo per la lettura di km,
+                velocit&agrave;, consumi, prestazioni motore ed altro
+              </p>
+              <h4>Riconoscimento Autista</h4>
+              <p>
+                Identificazione tramite chiavetta a codice del conducente, con
+                possibilit&agrave; di blocco avviamento automatico se non
+                autorizzato
+              </p>
+              <h4>Navigatore GARMIN</h4>
+              <p>
+                Invio indirizzi e missioni da Applicazione WEB direttamente al
+                Navigatore di bordo, monitoraggio stato del viaggio, scambio
+                messaggi con autista
+              </p>
+              <h4>Avvisi Automatici</h4>
+              <p>
+                Tempi di sosta eccessivi, movimento fuori orario lavorativo,
+                superamento limiti di velocit&agrave;, vicinanza confini
+                nazionali e altro...
+              </p>
+              <h4>Ottimizzazione Giri e Appuntamenti</h4>
+              <p>
+                Gestione della programmazione servizi con supporto cartografico.
+                Ottimizzazione percorsi e monitoraggio svolgimento
+              </p>
+              <h4>Attivit&agrave; mezzi pesanti</h4>
+              <p>
+                Analisi attivit&agrave; dei mezzi, intervalli a
+                quadro-on/quadro-off, e dei dati dell’autista, periodi di
+                guida/pausa, periodo di guida giornaliero e bisettimanale.
+                Cronotachigrafo virtuale
+              </p>
+              <h4>Input Digitali</h4>
+              <p>
+                Monitoraggio contatti, interruttori, spie, prese di forza,
+                portelloni, ecc. Indicazione di dove e quando vengono attivati
+              </p>
+              <h4>Filtro Privacy</h4>
+              <p>
+                Filtro posizioni al di fuori dell'orario lavorativo.
+                Riservatezza per aziende che hanno veicoli ad uso promiscuo
+              </p>
 
-          <div class="center">
+              <div class="center">
                 <a class="btn btn-primary" href="mezzi-soccorso.html"
                   >Dettagli »</a
                 >
               </div>
             </div>
           </div>
-          <div class="tab-pane" id="tab_c">
-            <div class="col-md-12 col-sm-12 col-xs-12">
-              <h2>Offerta</h2>
-              <div class="table-responsive settoritable1">
-                <table class="table">
-                  <tr>
-                    <td class="">Abbonamento mensile</td>
-                    <td>a soli &euro; 13,90 + IVA al mese a veicolo (*)</td>
-                  </tr>
-                  <tr>
-                    <td class="costi-first-td">Vincolo conrattuale</td>
-                    <td>
-                      nessuno: &egrave; possibile recedere in qualunque momento
-                    </td>
-                  </tr>
-                  <tr>
-                    <td class="costi-first-td">Attivazione</td>
-                    <td>
-                      &euro; 30,00 a veicolo + IVA. GRATUITA per ordini ricevuti
-                      via Internet o Telefonicamente
-                    </td>
-                  </tr>
-                  <tr>
-                    <td class="costi-first-td">
-                      Localizzatore satellitare GPS/GSM
-                    </td>
-                    <td>in comodato compreso nell'abbonamento</td>
-                  </tr>
-                  <tr>
-                    <td class="costi-first-td">Accesso WEB</td>
-                    <td>illimitato</td>
-                  </tr>
-                  <tr>
-                    <td class="costi-first-td">SIM</td>
-                    <td>compresa nell'abbonamento</td>
-                  </tr>
-                  <tr>
-                    <td class="costi-first-td">Traffico dati SIM</td>
-                    <td>
-                      Copertura ITALIA: compresa nell'abbonamento <br />
-                      Copertura EUROPA: &euro; 1,00 + IVA al mese a veicolo<br />
-                      Copertura MONDO: &euro; 3,00 + IVA al mese a veicolo
-                    </td>
-                  </tr>
-                  <tr>
-                    <td class="costi-first-td">Assistenza telefonica</td>
-                    <td>compresa nell'abbonamento</td>
-                  </tr>
-                  <tr>
-                    <td class="costi-first-td">Installazione</td>
-                    <td>
-                      esclusa. L'installazione degli apparati &egrave; a carico
-                      del cliente e può essere facilmente eseguita da un
-                      qualsiasi elettrauto di fiducia
-                    </td>
-                  </tr>
-                </table>
-              </div>
-              <br />
-              <p>
-                (*) L'importo dipende da configurazione ed accessori richiesti
-                al momento della sottoscrizione.
-              </p>
-              <p>
-                La sottoscrizione dell'abbonamento non prevede alcun vincolo
-                temporale, il recesso dal contratto lo decidi tu!
-              </p>
-              <br />
-              <br />
-              <h3>Prezzi per volumi con contratto senza vincoli</h3>
-              <div class="table-responsive settoritable1 text-center">
-                <table class="table">
-                  <thead>
-                    <tr>
-                      <th colspan="2">MEDIUM</th>
-                      <th colspan="2">
-                        <img
-                          src="../img/vflotte.png"
-                          style="height:28px"
-                          class="img-responsive"
-                        />
-                      </th>
-                      <th colspan="2">Volumi</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <!-- <td class=>SMALL</td> -->
-                      <td>Da 1 a 9</td>
-                      <td>Da 10 a 19</td>
-                      <td>Da 20 a 49</td>
-                      <td>Oltre 50</td>
-                    </tr>
-                    <tr>
-                      <td>&euro; 17,90</td>
-                      <td>&euro; 17,50</td>
-                      <td>&euro; 16,90</td>
-                      <td>&euro; 15,90</td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-              <br />
-              <h3>Prezzi per volumi con contratto senza vincoli</h3>
-              <div class="table-responsive settoritable1 text-center">
-                <table class="table">
-                  <thead>
-                    <tr>
-                      <th colspan="2">MEDIUM24</th>
-                      <th colspan="2">
-                        <img
-                          src="../img/vflotte.png"
-                          style="height:28px"
-                          class="img-responsive"
-                        />
-                      </th>
-                      <th colspan="2">Volumi</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <!-- <td class=>SMALL</td> -->
-                      <td>Da 1 a 9</td>
-                      <td>Da 10 a 19</td>
-                      <td>Da 20 a 49</td>
-                      <td>Oltre 50</td>
-                    </tr>
-                    <tr>
-                      <td>&euro; 16,10</td>
-                      <td>&euro; 15,17</td>
-                      <td>&euro; 15,20</td>
-                      <td>&euro; 14,30</td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-              <br />
-              <h3>Prezzi per volumi e contratto vincolato 36 mesi</h3>
-              <div class="table-responsive settoritable1 text-center">
-                <table class="table">
-                  <thead>
-                    <tr>
-                      <th colspan="2">MEDIUM36</th>
-                      <th colspan="2">
-                        <img
-                          src="../img/vflotte.png"
-                          style="height:28px"
-                          class="img-responsive"
-                        />
-                      </th>
-                      <th colspan="2">Volumi</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <!-- <td class=>SMALL</td> -->
-                      <td>Da 1 a 9</td>
-                      <td>Da 10 a 19</td>
-                      <td>Da 20 a 49</td>
-                      <td>Oltre 50</td>
-                    </tr>
-                    <tr>
-                      <td>&euro; 14,30</td>
-                      <td>&euro; 13,90</td>
-                      <td>&euro; 13,40</td>
-                      <td>&euro; 12,70</td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-              <p>
-                Per i Contratti Vincolati, in caso di recesso anticipato,
-                saranno richieste, come penale, 6 mensilit&agrave; a licenza per
-                il vincolato a 24 mesi, e 9 mensilit&agrave; a licenza per il
-                vincolato a 36 mesi.
-              </p>
-              <br />
-              <br />
-              <h3>Opzione ACQUISTO</h3>
-              <p>
-                &Egrave; possibile acquistare Dispositivi ed Accessori.
-                Contattaci per un Preventivo.
-              </p>
-              <div class="center">
-                <a class="btn btn-primary" href="../contatti.html"
-                  >Per offerte personalizzate contattaci »</a
-                >
-              </div>
-            </div>
-          </div>
+
           <div class="tab-pane" id="tab_e">
             <div class="col-md-12 col-sm-12 col-xs-12">
               <h4>Nessun Investimento</h4>
@@ -552,7 +576,11 @@
               <h4>Maggiore Efficienza</h4>
               <p>Posizioni, percorsi, tempi, km e velocit&agrave</p>
               <h4>Certificazione Tempi Viaggio e Sosta</h4>
-              <p>Località di partenza ed arrivo, tempi di viaggio, tempi di sosta, tempi di fermata (mezzo fermo con motore acceso), km percorsi, velocità media e massima</p>
+              <p>
+                Località di partenza ed arrivo, tempi di viaggio, tempi di
+                sosta, tempi di fermata (mezzo fermo con motore acceso), km
+                percorsi, velocità media e massima
+              </p>
               <br />
             </div>
           </div>

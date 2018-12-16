@@ -290,6 +290,7 @@ div#preloader {
   left: 0;
   position: absolute;
   width: 100%;
+  margin-bottom: 4px;
 }
 
 .main-menu ul.navbar-nav li.active a:hover {
@@ -396,7 +397,13 @@ div#preloader {
 
 .stick .navbar-brand.sticky-logo>img {
   display: block;
+  
 }
+
+/*.sticky-logo {
+  
+  margin-bottom: 5px;
+}*/
 
 .sticky-logo h1 {
   color: #fff;

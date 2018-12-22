@@ -29,11 +29,11 @@
    Navbar nav
   ------------------------------ */
 
-  var main_menu = $(".main-menu ul.navbar-nav li ");
+  /*var main_menu = $(".main-menu ul.navbar-nav li ");
   main_menu.on("click", function() {
     main_menu.removeClass("active");
     $(this).addClass("active");
-  });
+  });*/
 
   /*----------------------------
    wow js active

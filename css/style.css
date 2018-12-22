@@ -258,9 +258,14 @@ div#preloader {
   left: 0;
   width: 100%;
   height: auto;
-  background: rgba(0, 0, 0, 0.40);
-  /*background: blue; Zee */
+  /*background: rgba(0, 0, 0, 0.40);*/
+  background: white; /*Zee*/ 
   z-index: 9;
+}
+
+#sticker {
+  width: 100%;
+  background-color: white;
 }
 
 .navbar-header a.navbar-brand {
@@ -275,9 +280,8 @@ div#preloader {
 }
 
 .main-menu ul.navbar-nav li a {
-  background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
-  /*background:blue none repeat scroll 0 0;*/
-  color: #fff;
+  /*background: rgba(0, 0, 0, 0) none repeat scroll 0 0;*/
+  color: blue;
   font-size: 15px;
   font-weight: 500;
   padding: 24px 0px;
@@ -286,7 +290,8 @@ div#preloader {
 } 
 
 .main-menu ul.navbar-nav li.active > a::after {
-  border: 1px solid #fff;
+  /*border: 1px solid #fff;*/
+  border: 1px solid blue;
   bottom: 0px;
   content: "";
   left: 0;
@@ -296,22 +301,26 @@ div#preloader {
 }
 
 .main-menu ul.navbar-nav li.active a:hover {
-  background: none;
-  color: #fff;
+  /*background: none;*/
+  /*color: #fff;*/
+  color: red;
 }
 
 .main-menu ul.navbar-nav li.active a:focus {
-  color: #fff;
+  /*color: #fff;*/
+  color: red;
 }
 
 .main-menu ul.navbar-nav li.active a {
   background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
-  color: #fff;
+  /*color: #fff; */
+  color: blue;
   position: relative;
 }
 
 .main-menu ul.navbar-nav li a:hover {
-  color: #3EC1D5;
+  /*color: #3EC1D5;*/
+  color: red;
 }
 
 .navbar {
@@ -320,16 +329,18 @@ div#preloader {
 }
 
 .navbar-default {
-  background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+  /*background: rgba(0, 0, 0, 0) none repeat scroll 0 0;*/
+  background: white none repeat scroll 0 0;
 }
 
 .main-menu ul.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
   background: none;
-  color: #333;
+  /*color: #333;*/
+  color: red;
 }
 
 .navbar-default .navbar-toggle {
-  background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+  /*background: rgba(0, 0, 0, 0) none repeat scroll 0 0;*/
   border: medium none;
   border-radius: 0;
   padding: 25px 0px;
@@ -337,7 +348,9 @@ div#preloader {
 
 .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
   background-color: transparent;
-  color: #fff;
+  /*background-color: white;*/
+  /*color: #fff;*/
+  color: red;
 }
 
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
@@ -345,7 +358,8 @@ div#preloader {
 }
 
 .navbar-default .navbar-toggle .icon-bar {
-  background-color: #fff;
+  /*background-color: #fff;*/
+  background-color: blue;
   width: 30px;
   height: 2px;
 }
@@ -364,14 +378,21 @@ div#preloader {
 
 .top-right.text-right li a {
   color: #fff;
+  
 }
 
 .main-menu .dropdown ul {
-  background: #000;
+  /*background: #000;*/
+  background: white;
+ 
 }
 
 .main-menu .dropdown ul li {
   display: block;
+}
+
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li{
+  background: white;
 }
 
 /*--------------------------------*/
@@ -380,7 +401,8 @@ div#preloader {
 /*--------------------------------*/
 
 .header-area.stick {
-  background-color: rgba(0, 0, 0, 1);
+  /*background-color: rgba(0, 0, 0, 1);*/
+  background-color: #fff;
   height: 70px;
   position: fixed;
   top: 0;
@@ -408,7 +430,7 @@ div#preloader {
 }*/
 
 .sticky-logo h1 {
-  color: #fff;
+  /*color: #fff;*/
   padding: 0;
   margin: 0;
   font-size: 36px;
@@ -420,7 +442,8 @@ div#preloader {
   color: #3ec1d5;
 }
 .stick .main-menu ul.navbar-nav li.active > a::after {
-  border: 1px solid #fff;
+  /*border: 1px solid #fff;*/
+  border: 1px solid blue;
   bottom: 0px;
   content: "";
   left: 0;
@@ -429,23 +452,26 @@ div#preloader {
 }
 
 .stick .main-menu ul.nav>li>a:hover {
-  color: #fff;
+  /*color: #fff;*/
+  color: red;
 }
 
 .stick .main-menu ul.navbar-nav li.active a {
   background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
-  color: #fff;
+  color: blue;
   position: relative;
 }
 
 .stick .mainmenu ul#nav>li:hover>a, .stick .mainmenu ul#nav li .mega-menu, .stick .mainmenu ul#nav li ul.sub-menu {
-  background-color: #f5f5f5;
-  color: #fff;
+  /*background-color: #f5f5f5;*/
+  background-color: red;
+  /*color: #fff;*/
   outline: medium none;
 }
 
 .stick .mainmenu ul#nav li:hover ul.sub-menu li a:hover, .mainmenu ul#nav li .mega-menu span>a:hover, .stick .mainmenu ul#nav li .mega-menu-shop a.mega-menu-title:hover {
-  color: #fff;
+  /*color: #fff;*/
+  color: red;
 }
 
 .stick .logo {
@@ -457,7 +483,8 @@ div#preloader {
 }
 
 .stick .main-menu ul.nav>li>a {
-  color: #fff;
+  /*color: #fff;*/
+  color: blue;
   line-height: 22px;
   padding: 24px 0px;
   text-transform: capitalize;
@@ -465,7 +492,8 @@ div#preloader {
 }
 
 .stick .navbar-default .navbar-toggle .icon-bar {
-  background-color: #fff;
+  /*background-color: #fff;*/
+  background-color: blue;
   width: 30px;
   height: 2px;
 }

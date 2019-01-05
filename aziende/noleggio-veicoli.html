@@ -30,6 +30,10 @@
     />
     <link href="../lib/animate/animate.min.css" rel="stylesheet" />
     <link href="../lib/venobox/venobox.css" rel="stylesheet" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/prettyPhoto/3.1.6/css/prettyPhoto.css"
+      rel="stylesheet"
+    />
 
     <!-- Nivo Slider Theme -->
     <link href="../css/nivo-slider-theme.css" rel="stylesheet" />
@@ -54,9 +58,9 @@
         padding: 10px;
       }
       .FUNZIONALITÀ-COSTI-ACQUISTA-tab-border {
-        border-width: 1px;
+        /*border-width: 1px;
         border-style: solid;
-        border-color: rgb(221, 221, 221);
+        border-color: rgb(221, 221, 221);*/
 
         border-image: initial;
         border-radius: 4px;
@@ -685,6 +689,12 @@
     <script src="../lib/wow/wow.min.js"></script>
     <script src="../lib/parallax/parallax.js"></script>
     <script src="../lib/easing/easing.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prettyPhoto/3.1.6/js/jquery.prettyPhoto.js"></script>
+    <script type="text/javascript" charset="utf-8">
+     $(document).ready(function(){
+       $("a[rel^='prettyPhoto']").prettyPhoto();
+     });
+   </script>
     <script
       src="../lib/nivo-slider/js/jquery.nivo.slider.js"
       type="text/javascript"

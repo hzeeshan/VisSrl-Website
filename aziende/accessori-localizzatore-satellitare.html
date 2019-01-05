@@ -48,6 +48,13 @@
       =======================================================
     -->
     <style type="text/css">
+     .table-responsive {
+       width: 50%;
+       margin-left: auto;
+	    margin-right: auto;
+	    max-width: 1000px;
+	    float: none;
+     }
       th {
         text-align: center;
       }
@@ -60,14 +67,17 @@
         display: table-row-group;
         vertical-align: middle;
         border-color: inherit;
+       
+        /*background-color: red;*/
       }
       table.detail2 {
         margin: 0 auto;
+        
       }
       table.detail2 th,
       table.detail3 th {
         border: 1px solid #ccc;
-        padding: 5px 10px;
+       /* padding: 5px 10px;*/
         color: #23488f;
         font-weight: normal;
       }
@@ -115,6 +125,19 @@
       
       img {
         vertical-align: middle;
+      }
+      .black-bullet1, .pin-img-change1 {
+        max-width: 10px;
+      margin: 0px auto;
+      text-align: center;
+      }
+      .pin-img-change, .black-bullet {
+        
+        max-width: 10px;
+        margin: 0px auto;
+       text-align: center;
+        display: block;
+        border: none !important;
       }
     </style>
   </head>
@@ -318,7 +341,7 @@
       </div>
     </div>
     <!-- <div class="clearfix visible-xs"></div> -->
-
+    
     <div class="container">
       <div class="row">
         <div class="features">
@@ -337,6 +360,7 @@
                     Smartphone
                   </li>
                 </ul>
+                
                 <div class="table-responsive">
                   <table class="table table-bordered detail2">
                     <thead>
@@ -370,6 +394,7 @@
                     </tbody>
                   </table>
                 </div>
+              
               </a>
               <button
                 class="btn btn-primary visible-xs"
@@ -1056,6 +1081,7 @@
         </div>
       </div>
     </div>
+    
     <div class="container">
       <div class="row">
         <div class="col-md-12 col-sm-12 col-xs-12 wow fadeInUp">
@@ -1076,6 +1102,7 @@
               <ul class="product-ul">
                 <li>Tag identificativo autista aggiuntivo</li>
               </ul>
+
               <div class="table-responsive">
                  <table class="table table-bordered detail2">
                   <tr>
@@ -1161,7 +1188,7 @@
         </div>
       </div>
     </div>
-
+  
     <!-- Start Footer bottom Area -->
     <div id="footer"></div>
 

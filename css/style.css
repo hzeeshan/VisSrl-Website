@@ -301,7 +301,7 @@ div#preloader {
 }
 
 .main-menu ul.navbar-nav li.active a:hover {
-  /*background: none;*/
+  background: none;
   /*color: #fff;*/
   color: red;
 }
@@ -333,7 +333,7 @@ div#preloader {
   background: white none repeat scroll 0 0;
 }
 
-.main-menu ul.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+.main-menu ul.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus { 
   background: none;
   /*color: #333;*/
   color: red;
@@ -382,7 +382,6 @@ div#preloader {
 }
 
 .main-menu .dropdown ul {
-  /*background: #000;*/
   background: white;
  
 }
@@ -457,7 +456,7 @@ div#preloader {
 }
 
 .stick .main-menu ul.navbar-nav li.active a {
-  background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+  /*background: rgba(0, 0, 0, 0) none repeat scroll 0 0;*/
   color: blue;
   position: relative;
 }
@@ -2377,6 +2376,20 @@ span.email-notes {
   border-top: 1px solid #e5e5e5;
   margin: 0;
   padding-top: 30px;
+}
+/* Custom */
+.black-bullet1, .pin-img-change1 {
+  max-width: 10px;
+margin: 0px auto;
+text-align: center;
+}
+.pin-img-change, .black-bullet {
+  
+  max-width: 10px;
+  margin: 0px auto;
+ text-align: center;
+  display: block;
+  border: none !important;
 }
 
 /*----------------------------------------

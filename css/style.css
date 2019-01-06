@@ -156,6 +156,7 @@ body {
   .back-to-top {
     bottom: 15px;
   }
+
 }
 
 .back-to-top:focus {
@@ -394,6 +395,7 @@ div#preloader {
   background: white;
 }
 
+
 /*--------------------------------*/
 
 /* 2.1. Stick menu
@@ -500,6 +502,7 @@ div#preloader {
 .stick .navbar-default .navbar-toggle {
   padding: 10px 0px;
 }
+
 
 /*------------------------------
   3. About Area

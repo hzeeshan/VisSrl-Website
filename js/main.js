@@ -40,7 +40,11 @@
   ------------------------------ */
   new WOW().init();
 
-  $(".navbar-collapse a").on("click", function() {
+  /*$(".navbar-collapse a").on("click", function() {
+    $(".navbar-collapse.collapse").removeClass("in");
+  });*/
+
+  $(".navbar-collapse a:not(.dropdown-toggle)").on("click", function() {
     $(".navbar-collapse.collapse").removeClass("in");
   });
 

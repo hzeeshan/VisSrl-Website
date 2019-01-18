@@ -225,6 +225,7 @@ div#preloader {
   margin-bottom: 70px;
   position: relative;
   text-transform: capitalize;
+  padding-top: 45px;
 }
 
 .section-headline h2::after {
@@ -425,10 +426,10 @@ div#preloader {
   
 }
 
-/*.sticky-logo {
+.sticky-logo {
   
-  margin-bottom: 5px;
-}*/
+  margin-bottom: 12px;
+}
 
 .sticky-logo h1 {
   /*color: #fff;*/
@@ -2394,6 +2395,7 @@ text-align: center;
   display: block;
   border: none !important;
 }
+
 
 /*----------------------------------------
  .End CSS
